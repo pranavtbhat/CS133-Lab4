@@ -6,7 +6,7 @@ wget -O cuda.deb https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_insta
 # Install CUDA
 sudo dpkg -i cuda.deb
 sudo apt-get update
-sudo apt-get install cuda
+sudo apt-get -y install cuda
 
 # Install OpenCL
 sudo apt install ocl-icd-libopencl1 opencl-headers clinfo
