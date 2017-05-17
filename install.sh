@@ -9,4 +9,4 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 # Install OpenCL
-sudo apt install ocl-icd-libopencl1 opencl-headers clinfo
+sudo apt-get install -y ocl-icd-libopencl1 opencl-headers clinfo
